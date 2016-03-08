@@ -1,0 +1,36 @@
+﻿1. MessageBox.Show("Doan Thi Minh Ngoc")
+2. 
+		int maxnumber = 1000;
+		int total = 0;
+		for (int i = 1;i <= maxnumber;i++)
+    		total = total + i;
+        	Console.WriteLine("Total of first 1000 numbers is" + total);
+
+
+4. 
+
+<body>
+
+<div id="header">
+<h1>Lazada</h1>
+</div>
+
+<div id="nav">
+Vietnam<br>
+Thailand<br>
+Indonesia<br>
+Singapore<br>
+Philippine<br>
+Malaysia
+</div>
+
+<div id="section">
+<h1>About Lazada </h1>
+<p>Southest Asia's No. 1 Online Shi </p>
+</div>
+
+<div id="footer">
+Copyright © Lazada.com
+</div>
+
+</body>
