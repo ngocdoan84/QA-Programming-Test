@@ -1,0 +1,185 @@
+================= UNIT 1: SITE STRUCTURE =================
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ollie Bike Sharing</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+  <div class="container">
+    
+    <div class="nav">
+    <h2>Ollie</h2>
+ 		<ul>
+    	<li>sign up</li>
+    	<li>search bikes</li>
+    	<li>researve a bike</li>
+   		<li>about us</li>
+  	</ul>
+    </div>
+    <div class="main">
+    <h1>Ollie Bike Sharing</h1>
+  <h3>Share Your Pedals with the World.</h3>
+  <p>Need a set of wheels while you're in town? Use Ollie to pair your perfect vacation with a stylish, affordable bike rental.
+    Here is a <a href="cities.html">list</a> of cities where you can find us. </p>
+  <video width="320" height="240" controls> <source src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-1/ollie.mp4" type="video/mp4"></video>
+    </div>
+    
+  </div>
+</body>
+</html>
+
+
+================= UNIT 2: A CLOSER LOOK AT CSS =================
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sprout</title>
+	<link rel="stylesheet" type="text/css" href="main.css"/>
+</head>
+<body>
+	<h1>Mystwood Publishers Ltd.</h1>
+	<div class="hero">
+		<h2>Sprout.</h2>
+		<p>A book by J. Daniel Bedford</p>
+		<a href="#">Read now.</a>
+	</div>
+	<p id="footer">&copy; Mystwood Publishers Limited</p>
+</body>
+</html>
+
+
+================= UNIT 3: BOUNDARIES AND SPACE =================
+<html>
+<head>
+    <title>Tundra Gallery</title>
+    <meta charset="utf-8"/>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+    <header>
+      <h1 class="page-title">TUNDRA GALLERY</h1>
+      <p class="page-description">The Tundra Gallery is a collection of photographs from three distinct areas: arctic tundra, alpine tundra, and antarctic tundra. In tundra, the vegetation is composed of dwarf shrubs, sedges and grasses, mosses, and lichens, making for diverse ecology and stunning photos. </p>
+    </header>
+
+    <div class="gallery">
+      <figure class="gallery-item">
+        <img class="thumbnail" src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/moss1.jpg">
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/moss2.jpg">
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/moss3.jpg">
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/moss4.jpg">
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/moss5.jpg">
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/moss6.jpg">
+      </figure>
+    </div>
+
+      <nav>
+      <ul>
+        <li><a href="#"><b>Arctic</b></a></li>
+        <li><a href="#">Alpine</a></li>
+        <li><a href="#">Antarctic</a></li>
+      </ul>
+      <div class="contact-btn"><a>Contact</a>
+      </div>
+    </nav>
+  </body>
+</html>
+
+
+================= UNIT 4: BUILDING WITH BOOTSTRAP =================
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Skillfair</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<header class="container">
+		<div class="row">
+      <h1 class="col-sm-4">Skillfair</h1>
+      <nav class="col-sm-8 text-right">
+        <p>newest</p>
+        <p>catalogue</p>
+        <p>contact</p>
+      </nav>
+    </div>
+    
+	</header>
+	<section class="jumbotron">
+  	<div class="container">
+      <div class="row text-center">
+        <h2>homemade Goods</h2>
+        <h3>This Year's Bess</h3>
+        <a class="btn btn-primary" href="#" role="button">See all</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+       <div class="row">
+         <figure class="col-sm-6">
+           <p>kitchen</p>
+         <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/kitchen.jpg" />
+            
+         </figure>
+           <figure class="col-sm-6">
+             <p>woodwork</p>
+             <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/woodwork.jpg"/>
+             
+         </figure>
+    </div>
+    <div class="row">
+        <figure class="col-sm-6">
+            <p>gifts</p>
+          <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/gifts.jpg"/>
+         </figure>
+        <figure class="col-sm-6">
+            <p>auntiques</p>
+          <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/antique.jpg"/>
+          
+         </figure>
+    </div>
+  </section>
+  
+  
+<footer class="container">
+  <div class="row">
+    <p class="col-sm-4">
+      &copy; 2016 Skillfair
+    </p>
+    <ul class="col-sm-8">
+      <li class="col-sm-1"> 
+      	  <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg">
+        </li>
+      <li class="col-sm-1"> 
+        <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg">
+      </li>
+      <li class="col-sm-1"> 
+        <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg">
+      </li>
+      <li class="col-sm-1">
+          <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/medium.svg">
+      </li>
+    </ul>
+  </div>
+  </footer>
+  
+</body>
+</html>
+
